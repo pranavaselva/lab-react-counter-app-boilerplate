@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.heading-one{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.heading-two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: brown;
+}
+
+.buttons{
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-1, .button-2, .button-3{
+  font-size: 20px;
+}
+.button-1:hover{
+  color: white;
+ background-color: black;
+}
+
+.button-2:hover{
+  color: white;
+ background-color: black;
+}
+
+.button-3:hover{
+  color: white;
+ background-color: black;
+}
